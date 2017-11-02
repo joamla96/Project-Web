@@ -15,15 +15,18 @@ namespace Service.Controllers
 			return new string[] { "value1", "value2" };
 		}
 
+		[Route("Get/{id}")]
+		[HttpGet]
 		// GET api/<controller>/5
 		public string Get(int id)
 		{
-			return "value";
+			return "" + id;
 		}
 
 		// POST api/<controller>
-		public void Post([FromBody]string value)
+		public string Post([FromBody]string value)
 		{
+			return value;
 		}
 
 		// PUT api/<controller>/5
