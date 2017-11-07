@@ -6,5 +6,6 @@ namespace Core
 {
     class LecturePlanHomework
     {
+        public DateTime DueDate { get; set; }
     }
 }

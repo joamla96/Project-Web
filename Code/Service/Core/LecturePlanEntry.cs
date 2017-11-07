@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Core
 {
-    class LecturePlanEntry
+    public abstract class LecturePlanEntry
     {
+        public DateTime AssignedDate { get; set; }
+        public string Description { get; set; }
+
+        
     }
 }
