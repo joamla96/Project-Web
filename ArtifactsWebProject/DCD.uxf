@@ -20,12 +20,14 @@ LecturePlanRepository
     <coordinates>
       <x>850</x>
       <y>270</y>
-      <w>100</w>
-      <h>60</h>
+      <w>200</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>LecturePlan
 -
-</panel_attributes>
++ Name: string
+-
++ AddEntry(LecturePlanEntry)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -38,7 +40,8 @@ LecturePlanRepository
     </coordinates>
     <panel_attributes>/LecturePlanEntry/
 -
-</panel_attributes>
++ AssignedDate: DateTime
++ Descriptiom: string </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -64,7 +67,7 @@ LecturePlanRepository
     </coordinates>
     <panel_attributes>LecturePlanHomework
 -
-</panel_attributes>
++ DueDate: DateTime</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
