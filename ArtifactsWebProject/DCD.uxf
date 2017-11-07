@@ -20,14 +20,14 @@ LecturePlanRepository
     <coordinates>
       <x>850</x>
       <y>270</y>
-      <w>200</w>
+      <w>240</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>LecturePlan
 -
 + Name: string
 -
-+ AddEntry(LecturePlanEntry)</panel_attributes>
++ AddEntry(entry: LecturePlanEntry)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
