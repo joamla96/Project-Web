@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>12</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>372</y>
-      <w>336</w>
-      <h>84</h>
+      <x>88</x>
+      <y>416</y>
+      <w>224</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>                                       1
 LecturePlanRepository
@@ -18,10 +18,10 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>372</y>
-      <w>288</w>
-      <h>84</h>
+      <x>408</x>
+      <y>416</y>
+      <w>192</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>LecturePlan
 -
@@ -33,24 +33,24 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>180</y>
-      <w>240</w>
-      <h>72</h>
+      <x>296</x>
+      <y>288</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>/LecturePlanEntry/
 -
-+ AssignedDate: DateTime
++ AssignedDate: dateTime
 + Descriptiom: string </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>228</y>
-      <w>192</w>
-      <h>72</h>
+      <x>88</x>
+      <y>320</y>
+      <w>128</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>LecturePlanClasswork
 -
@@ -60,23 +60,23 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1032</x>
-      <y>228</y>
-      <w>192</w>
-      <h>72</h>
+      <x>536</x>
+      <y>320</y>
+      <w>128</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>LecturePlanHomework
 -
-+ DueDate: DateTime</panel_attributes>
++ DueDate: dateTime</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>180</y>
-      <w>156</w>
-      <h>84</h>
+      <x>208</x>
+      <y>288</y>
+      <w>104</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;110.0;10.0</additional_attributes>
@@ -84,10 +84,10 @@ LecturePlanRepository
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>180</y>
-      <w>156</w>
-      <h>84</h>
+      <x>448</x>
+      <y>288</y>
+      <w>104</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>110.0;50.0;60.0;50.0;60.0;10.0;10.0;10.0</additional_attributes>
@@ -95,10 +95,10 @@ LecturePlanRepository
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>888</x>
-      <y>240</y>
-      <w>60</w>
-      <h>156</h>
+      <x>440</x>
+      <y>328</y>
+      <w>40</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 m1=0..n
@@ -109,10 +109,10 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>360</y>
-      <w>180</w>
-      <h>60</h>
+      <x>304</x>
+      <y>408</y>
+      <w>120</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
