@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>12</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>408</x>
-      <y>48</y>
-      <w>72</w>
-      <h>132</h>
+      <x>144</x>
+      <y>0</y>
+      <w>48</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>User</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>876</x>
-      <y>108</y>
-      <w>132</w>
-      <h>60</h>
+      <x>456</x>
+      <y>40</y>
+      <w>88</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 _:System_</panel_attributes>
@@ -27,72 +27,34 @@ _:System_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>192</y>
-      <w>528</w>
-      <h>48</h>
+      <x>160</x>
+      <y>96</y>
+      <w>352</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-Autentificate</panel_attributes>
+Select user type</panel_attributes>
     <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>336</x>
-      <y>240</y>
-      <w>672</w>
-      <h>84</h>
-    </coordinates>
-    <panel_attributes>OPT
-correct 
-info</panel_attributes>
-    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>264</y>
-      <w>528</w>
-      <h>48</h>
+      <x>160</x>
+      <y>160</y>
+      <w>352</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Access Granted</panel_attributes>
+Shows Student view</panel_attributes>
     <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>336</x>
-      <y>324</y>
-      <w>672</w>
-      <h>84</h>
-    </coordinates>
-    <panel_attributes>ALT
-incorrect
-info</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>432</x>
-      <y>348</y>
-      <w>528</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Access Denied</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>336</x>
-      <y>432</y>
-      <w>672</w>
-      <h>108</h>
+      <x>64</x>
+      <y>928</y>
+      <w>504</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>OPT
 </panel_attributes>
@@ -101,22 +63,10 @@ Access Denied</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>444</y>
-      <w>528</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-Open Lecture Plan</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>432</x>
-      <y>492</y>
-      <w>528</w>
-      <h>48</h>
+      <x>160</x>
+      <y>328</y>
+      <w>352</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 DisplayLecturePlan()</panel_attributes>
@@ -125,34 +75,34 @@ DisplayLecturePlan()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>312</x>
-      <y>564</y>
-      <w>696</w>
-      <h>216</h>
+      <x>64</x>
+      <y>992</y>
+      <w>504</w>
+      <h>144</h>
     </coordinates>
-    <panel_attributes>OPT
+    <panel_attributes>ALT
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>576</y>
-      <w>528</w>
-      <h>48</h>
+      <x>152</x>
+      <y>992</y>
+      <w>360</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 Open Exercises</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>624</y>
-      <w>528</w>
-      <h>48</h>
+      <x>160</x>
+      <y>400</y>
+      <w>352</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ShowExercises()</panel_attributes>
@@ -161,10 +111,10 @@ ShowExercises()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>672</y>
-      <w>660</w>
-      <h>96</h>
+      <x>80</x>
+      <y>1064</y>
+      <w>488</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>OPT
 exercise
@@ -175,10 +125,10 @@ complete
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>696</y>
-      <w>528</w>
-      <h>48</h>
+      <x>160</x>
+      <y>464</y>
+      <w>352</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ShowResults()</panel_attributes>
@@ -187,23 +137,423 @@ ShowResults()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>924</x>
-      <y>156</y>
-      <w>36</w>
-      <h>696</h>
+      <x>488</x>
+      <y>72</y>
+      <w>32</w>
+      <h>1536</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;560.0</additional_attributes>
+    <additional_attributes>10.0;10.0;20.0;1900.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>156</y>
-      <w>36</w>
-      <h>696</h>
+      <x>160</x>
+      <y>72</y>
+      <w>24</w>
+      <h>1616</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;560.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;2000.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>568</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Shows Teacher view</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>16</x>
+      <y>560</y>
+      <w>608</w>
+      <h>344</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>16</x>
+      <y>152</y>
+      <w>608</w>
+      <h>408</h>
+    </coordinates>
+    <panel_attributes>OPT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>600</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Lecture Plan</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>632</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+DisplayLecturePlan()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>688</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Exercises</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>720</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowExercises()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>768</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowResults()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>88</x>
+      <y>760</y>
+      <w>440</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+exercise
+complete
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>80</x>
+      <y>840</y>
+      <w>464</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>80</x>
+      <y>592</y>
+      <w>464</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>OPT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>80</x>
+      <y>680</y>
+      <w>464</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>840</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Exercises Edit view and input needed info</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>864</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowExercise()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>296</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Lecture Plan</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>960</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+DisplayLecturePlan()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>904</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Shows Admin view</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>80</x>
+      <y>288</y>
+      <w>488</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>OPT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>376</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Exercises</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>1016</y>
+      <w>360</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowExercises()</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>1080</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowResults()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>88</x>
+      <y>456</y>
+      <w>464</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>OPT
+exercise
+complete
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>80</x>
+      <y>376</y>
+      <w>488</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>1136</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Exercises Edit view and input needed info</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>1160</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ShowExercise()</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>64</x>
+      <y>1192</y>
+      <w>504</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>16</x>
+      <y>904</y>
+      <w>608</w>
+      <h>416</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>936</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Open Lecture Plan</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>1032</y>
+      <w>368</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Do Exercises</panel_attributes>
+    <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>736</y>
+      <w>368</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Do Exercises</panel_attributes>
+    <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>424</y>
+      <w>368</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Do Exercises</panel_attributes>
+    <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>64</x>
+      <y>1136</y>
+      <w>504</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ALT
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>1200</y>
+      <w>352</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Create lecture plan and assigne it to class</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
   </element>
 </diagram>
