@@ -7,14 +7,9 @@ namespace Core
     class LecturePlanRepository
     {
         private static LecturePlanRepository instance;
-        public static LecturePlanRepository Instance
-        {
-            get
-            {
-                if(instance==null)
-                {
-                    instance = new LecturePlanRepository();
-                }
+        public static LecturePlanRepository Instance {
+            get {
+                if (instance == null) { instance = new LecturePlanRepository(); }
                 return instance;
             }
         }
