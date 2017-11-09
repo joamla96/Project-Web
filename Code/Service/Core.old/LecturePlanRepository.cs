@@ -14,23 +14,7 @@ namespace Core
             }
         }
 
-
-        private LecturePlanRepository() {
-            LecturePlan dummy1 = new LecturePlan()
-            {
-                ID = 1,
-                Name = "dummy1"
-            };
-
-            LecturePlan dummy2 = new LecturePlan()
-            {
-                ID = 2,
-                Name = "dummy2"
-            };
-
-            lecturePlans.Add(dummy1);
-            lecturePlans.Add(dummy2);
-        }
+        private LecturePlanRepository() { }
 
         private List<LecturePlan> lecturePlans = new List<LecturePlan>();
 
@@ -61,26 +45,6 @@ namespace Core
         public IEnumerable<LecturePlan> GetAllLecturePlans()
         {
             return lecturePlans;
-        }
-
-        public LecturePlan GetLecturePlanByID(int id)
-        {
-            LecturePlan result = null;
-
-            foreach(LecturePlan item in lecturePlans)
-            {
-                if(id.Equals(item.ID))
-                    {
-                    result = item;
-                }
-            }
-
-            if(result==null)
-            {
-                throw new IndexOutOfRangeException();
-            }
-
-            return result;
         }
     }
 }
