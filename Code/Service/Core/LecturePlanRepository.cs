@@ -82,5 +82,14 @@ namespace Core
 
             return result;
         }
+
+        public void RemoveLecturePlanByID(int id)
+        {
+
+            LecturePlan lecturePlan = GetLecturePlanByID(id);
+
+            RemoveLecturePlan(lecturePlan);
+            
+        }
     }
 }
