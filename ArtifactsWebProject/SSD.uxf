@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>144</x>
-      <y>0</y>
+      <x>576</x>
+      <y>112</y>
       <w>48</w>
       <h>88</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>40</y>
+      <x>888</x>
+      <y>144</y>
       <w>88</w>
       <h>40</h>
     </coordinates>
@@ -27,8 +27,8 @@ _:System_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>96</y>
+      <x>592</x>
+      <y>208</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -39,8 +39,8 @@ Select user type</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>160</y>
+      <x>592</x>
+      <y>248</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -51,8 +51,8 @@ Shows Student view</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>64</x>
-      <y>928</y>
+      <x>496</x>
+      <y>1048</y>
       <w>504</w>
       <h>64</h>
     </coordinates>
@@ -63,7 +63,7 @@ Shows Student view</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
+      <x>592</x>
       <y>328</y>
       <w>352</w>
       <h>32</h>
@@ -75,8 +75,8 @@ DisplayLecturePlan()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>64</x>
-      <y>992</y>
+      <x>496</x>
+      <y>1112</y>
       <w>504</w>
       <h>144</h>
     </coordinates>
@@ -87,8 +87,8 @@ DisplayLecturePlan()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>152</x>
-      <y>992</y>
+      <x>584</x>
+      <y>1112</y>
       <w>360</w>
       <h>32</h>
     </coordinates>
@@ -99,8 +99,8 @@ Open Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>400</y>
+      <x>592</x>
+      <y>424</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -111,8 +111,8 @@ ShowExercises()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>1064</y>
+      <x>512</x>
+      <y>1184</y>
       <w>488</w>
       <h>48</h>
     </coordinates>
@@ -125,8 +125,8 @@ complete
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>464</y>
+      <x>592</x>
+      <y>504</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -137,30 +137,30 @@ ShowResults()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>488</x>
-      <y>72</y>
-      <w>32</w>
-      <h>1536</h>
+      <x>920</x>
+      <y>176</y>
+      <w>40</w>
+      <h>1320</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;1900.0</additional_attributes>
+    <additional_attributes>10.0;10.0;30.0;1630.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>72</y>
+      <x>592</x>
+      <y>184</y>
       <w>24</w>
-      <h>1616</h>
+      <h>1312</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;2000.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1620.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>568</y>
+      <x>592</x>
+      <y>688</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -171,8 +171,8 @@ Shows Teacher view</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>16</x>
-      <y>560</y>
+      <x>448</x>
+      <y>680</y>
       <w>608</w>
       <h>344</h>
     </coordinates>
@@ -183,10 +183,10 @@ Shows Teacher view</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>16</x>
-      <y>152</y>
+      <x>448</x>
+      <y>240</y>
       <w>608</w>
-      <h>408</h>
+      <h>360</h>
     </coordinates>
     <panel_attributes>OPT
 </panel_attributes>
@@ -195,8 +195,8 @@ Shows Teacher view</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>600</y>
+      <x>592</x>
+      <y>720</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -207,8 +207,8 @@ Open Lecture Plan</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>632</y>
+      <x>592</x>
+      <y>752</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -219,8 +219,8 @@ DisplayLecturePlan()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>688</y>
+      <x>592</x>
+      <y>808</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -231,8 +231,8 @@ Open Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>720</y>
+      <x>592</x>
+      <y>840</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -243,8 +243,8 @@ ShowExercises()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>768</y>
+      <x>592</x>
+      <y>888</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -255,8 +255,8 @@ ShowResults()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>88</x>
-      <y>760</y>
+      <x>520</x>
+      <y>880</y>
       <w>440</w>
       <h>64</h>
     </coordinates>
@@ -269,8 +269,8 @@ complete
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>840</y>
+      <x>512</x>
+      <y>960</y>
       <w>464</w>
       <h>56</h>
     </coordinates>
@@ -281,8 +281,8 @@ complete
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>592</y>
+      <x>512</x>
+      <y>712</y>
       <w>464</w>
       <h>88</h>
     </coordinates>
@@ -293,8 +293,8 @@ complete
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>680</y>
+      <x>512</x>
+      <y>800</y>
       <w>464</w>
       <h>160</h>
     </coordinates>
@@ -305,8 +305,8 @@ complete
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>840</y>
+      <x>592</x>
+      <y>960</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -317,8 +317,8 @@ Open Exercises Edit view and input needed info</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>152</x>
-      <y>864</y>
+      <x>584</x>
+      <y>984</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -329,7 +329,7 @@ ShowExercise()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
+      <x>592</x>
       <y>296</y>
       <w>352</w>
       <h>32</h>
@@ -341,8 +341,8 @@ Open Lecture Plan</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>960</y>
+      <x>592</x>
+      <y>1080</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -353,8 +353,8 @@ DisplayLecturePlan()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>904</y>
+      <x>592</x>
+      <y>1024</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -365,9 +365,9 @@ Shows Admin view</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
+      <x>512</x>
       <y>288</y>
-      <w>488</w>
+      <w>496</w>
       <h>88</h>
     </coordinates>
     <panel_attributes>OPT
@@ -377,8 +377,8 @@ Shows Admin view</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>376</y>
+      <x>592</x>
+      <y>392</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -389,8 +389,8 @@ Open Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>1016</y>
+      <x>592</x>
+      <y>1136</y>
       <w>360</w>
       <h>32</h>
     </coordinates>
@@ -401,8 +401,8 @@ ShowExercises()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>1080</y>
+      <x>592</x>
+      <y>1200</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -413,8 +413,8 @@ ShowResults()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>88</x>
-      <y>456</y>
+      <x>520</x>
+      <y>488</y>
       <w>464</w>
       <h>56</h>
     </coordinates>
@@ -427,20 +427,20 @@ complete
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>376</y>
-      <w>488</w>
+      <x>512</x>
+      <y>384</y>
+      <w>496</w>
       <h>176</h>
     </coordinates>
-    <panel_attributes>ALT
+    <panel_attributes>OPT
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>1136</y>
+      <x>592</x>
+      <y>1256</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -451,8 +451,8 @@ Open Exercises Edit view and input needed info</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>1160</y>
+      <x>592</x>
+      <y>1280</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -463,8 +463,8 @@ ShowExercise()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>64</x>
-      <y>1192</y>
+      <x>496</x>
+      <y>1312</y>
       <w>504</w>
       <h>56</h>
     </coordinates>
@@ -475,8 +475,8 @@ ShowExercise()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>16</x>
-      <y>904</y>
+      <x>448</x>
+      <y>1024</y>
       <w>608</w>
       <h>416</h>
     </coordinates>
@@ -487,8 +487,8 @@ ShowExercise()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>936</y>
+      <x>592</x>
+      <y>1056</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -499,8 +499,8 @@ Open Lecture Plan</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>152</x>
-      <y>1032</y>
+      <x>584</x>
+      <y>1152</y>
       <w>368</w>
       <h>32</h>
     </coordinates>
@@ -511,8 +511,8 @@ Do Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>152</x>
-      <y>736</y>
+      <x>584</x>
+      <y>856</y>
       <w>368</w>
       <h>32</h>
     </coordinates>
@@ -523,20 +523,20 @@ Do Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>152</x>
-      <y>424</y>
-      <w>368</w>
+      <x>592</x>
+      <y>456</y>
+      <w>352</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 Do Exercises</panel_attributes>
-    <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>64</x>
-      <y>1136</y>
+      <x>496</x>
+      <y>1256</y>
       <w>504</w>
       <h>56</h>
     </coordinates>
@@ -547,8 +547,8 @@ Do Exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>168</x>
-      <y>1200</y>
+      <x>600</x>
+      <y>1320</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
