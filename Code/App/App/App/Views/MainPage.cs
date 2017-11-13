@@ -8,28 +8,28 @@ namespace App
     {
         public MainPage()
         {
-            Page itemsPage, aboutPage = null;
+            Page /*itemsPage,*/ aboutPage = null;
 
             switch (Device.RuntimePlatform)
             {
                 case Device.iOS:
-                    itemsPage = new NavigationPage(new ItemsPage())
-                    {
-                        Title = "Browse"
-                    };
+                    //itemsPage = new NavigationPage(new ItemsPage())
+                    //{
+                    //    Title = "Browse"
+                    //};
 
                     aboutPage = new NavigationPage(new AboutPage())
                     {
                         Title = "About"
                     };
-                    itemsPage.Icon = "tab_feed.png";
+                    //itemsPage.Icon = "tab_feed.png";
                     aboutPage.Icon = "tab_about.png";
                     break;
                 default:
-                    itemsPage = new ItemsPage()
-                    {
-                        Title = "Browse"
-                    };
+                    //itemsPage = new ItemsPage()
+                    //{
+                    //    Title = "Browse"
+                    //};
 
                     aboutPage = new AboutPage()
                     {
@@ -38,7 +38,7 @@ namespace App
                     break;
             }
 
-            Children.Add(itemsPage);
+            //Children.Add(itemsPage);
             Children.Add(aboutPage);
 
             Title = Children[0].Title;
