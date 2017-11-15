@@ -11,9 +11,9 @@ namespace App
             InitializeComponent();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
+                MainPage = new AboutPage();
             else
-                MainPage = new NavigationPage(new AboutPage());
+                MainPage = new AboutPage();
         }
     }
 }

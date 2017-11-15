@@ -2,9 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App.AboutPage"
-             xmlns:vm="clr-namespace:App;"
-             Title="{Binding Title}">
-	<ContentPage.BindingContext>
+             xmlns:vm="clr-namespace:App;">
+    <ContentPage.BindingContext>
 		<vm:AboutViewModel />
 	</ContentPage.BindingContext>
 	<Grid>
@@ -15,9 +14,9 @@
         <ScrollView Grid.Row="1">
 			<StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
 				
-                <Button Margin="0,20,0,0" Text="Teacher" Command="{Binding OpenTeacherView}" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,30,0,0" Text="Admin" Command="{Binding OpenAdminView}" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,40,0,0" Text="Student" Command="{Binding OpenStudentView}" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <Button Margin="0,20,0,0" Text="Teacher" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <Button Margin="0,30,0,0" Text="Admin" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <Button Margin="0,30,0,0" Text="Student" Clicked="OnSelectingStudentUser" BackgroundColor="{StaticResource Primary}" TextColor="White" />
             </StackLayout>
 		</ScrollView>
 	</Grid>
