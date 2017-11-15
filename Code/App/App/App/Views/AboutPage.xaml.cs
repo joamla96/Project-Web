@@ -15,6 +15,14 @@ namespace App
         {
             await Navigation.PushAsync(new StudentMainMenu());
         }
+        async void OnSelectingTeacherUser(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NavigationPage (new AdminAndTeacherBurgerSelectClass()));
+        }
+        async void OnSelectingAdminUser(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new StudentMainMenu());
+        }
 
     }
 }

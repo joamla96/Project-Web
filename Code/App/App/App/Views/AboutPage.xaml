@@ -13,9 +13,9 @@
         </Grid.RowDefinitions>
         <ScrollView Grid.Row="1">
 			<StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
-				
-                <Button Margin="0,20,0,0" Text="Teacher" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                <Button Margin="0,30,0,0" Text="Admin" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+
+                <Button Margin="0,20,0,0" Text="Teacher" Clicked="OnSelectingTeacherUser" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+                <Button Margin="0,30,0,0" Text="Admin" Clicked="OnSelectingAdminUser" BackgroundColor="{StaticResource Primary}" TextColor="White" />
                 <Button Margin="0,30,0,0" Text="Student" Clicked="OnSelectingStudentUser" BackgroundColor="{StaticResource Primary}" TextColor="White" />
             </StackLayout>
 		</ScrollView>

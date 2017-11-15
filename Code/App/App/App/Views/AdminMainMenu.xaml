@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App.Views.StudentMainMenu">
+             x:Class="App.Views.AdminMainMenu">
     <ContentPage.Content>
         <StackLayout>
             <Button Margin="20,20,20,20" Text="Se Lektionsplan"  BackgroundColor="{StaticResource Primary}" TextColor="White" />
             <Button Margin="20,20,20,20" Text="Opgave" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+            <Button Margin="20,20,20,20" Text="Opret Klasse" BackgroundColor="{StaticResource Primary}" TextColor="White" />
 
         </StackLayout>
     </ContentPage.Content>
