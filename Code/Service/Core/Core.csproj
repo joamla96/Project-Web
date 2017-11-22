@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\ILecturePlanRepository.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Models\LecturePlan.cs" />
     <Compile Include="Models\LecturePlanEntries\LecturePlanClasswork.cs" />
     <Compile Include="Models\LecturePlanEntries\LecturePlanHomework.cs" />

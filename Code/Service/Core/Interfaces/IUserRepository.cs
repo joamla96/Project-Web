@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Core.Interfaces
 {
-    interface IUser
+    public interface IUserRepository
     {
+        void AddUser(User user);
+        void RemoveUser(User user);
+        User GetUser(User user);
+        User GetUserByUsername(string username);
+
     }
 }
