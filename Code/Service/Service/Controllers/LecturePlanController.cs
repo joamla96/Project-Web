@@ -12,6 +12,18 @@ namespace Service.Controllers
 {
     public class LecturePlanController : ApiController
     {
+        private ILecturePlanRepository RepoLecturePlans;
+
+        public LecturePlanController(ILecturePlanRepository RepoLecturePlan)
+        {
+            this.RepoLecturePlans = RepoLecturePlan;
+        }
+
+        public LecturePlanController()
+        {
+            this.RepoLecturePlans = LecturePlanRepository.Instance;
+        }
+
         public string Get()
         {
             return "Please specify lectureplan";
@@ -20,7 +32,7 @@ namespace Service.Controllers
         // GET: api/LecturePlan/5
         public LecturePlan Get(int id)
         {
-            return LecturePlanRepository.Instance.GetLecturePlanByID(id);
+            return RepoLecturePlans.GetLecturePlanByID(id);
         }
 
         //// POST: api/LecturePlan
@@ -35,7 +47,7 @@ namespace Service.Controllers
         {
             List<string> result = new List<string>();
 
-            List<LecturePlan> plans = LecturePlanRepository.Instance.GetAllLecturePlans().ToList<LecturePlan>();
+            List<LecturePlan> plans = RepoLecturePlans.GetAllLecturePlans().ToList<LecturePlan>();
 
             foreach(LecturePlan item in plans)
             {

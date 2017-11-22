@@ -6,8 +6,8 @@ namespace Core
 {
     public class LecturePlanRepository : ILecturePlanRepository
     {
-        private static LecturePlanRepository instance;
-        public static LecturePlanRepository Instance {
+        private static ILecturePlanRepository instance;
+        public static ILecturePlanRepository Instance {
             get {
                 if (instance == null) { instance = new LecturePlanRepository(); }
                 return instance;
