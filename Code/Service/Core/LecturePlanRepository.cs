@@ -55,6 +55,10 @@ namespace Core
                     result = lectureplan;
                 }
             }
+            if (result == null)
+            {
+                throw new NullReferenceException();
+            }
             return result;
         }
 
@@ -77,7 +81,7 @@ namespace Core
 
             if(result==null)
             {
-                throw new IndexOutOfRangeException();
+                throw new NullReferenceException();
             }
 
             return result;
