@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>88</x>
-      <y>416</y>
-      <w>224</w>
-      <h>56</h>
+      <x>429</x>
+      <y>455</y>
+      <w>364</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>                                       1
 LecturePlanRepository
@@ -18,10 +18,10 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>408</x>
-      <y>416</y>
-      <w>192</w>
-      <h>56</h>
+      <x>949</x>
+      <y>455</y>
+      <w>312</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>LecturePlan
 -
@@ -33,10 +33,10 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>296</x>
-      <y>288</y>
-      <w>160</w>
-      <h>48</h>
+      <x>767</x>
+      <y>247</y>
+      <w>260</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>/LecturePlanEntry/
 -
@@ -47,10 +47,10 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>88</x>
-      <y>320</y>
-      <w>128</w>
-      <h>48</h>
+      <x>429</x>
+      <y>299</y>
+      <w>208</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>LecturePlanClasswork
 -
@@ -60,10 +60,10 @@ LecturePlanRepository
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>536</x>
-      <y>320</y>
-      <w>128</w>
-      <h>48</h>
+      <x>1157</x>
+      <y>299</y>
+      <w>208</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>LecturePlanHomework
 -
@@ -73,10 +73,10 @@ LecturePlanRepository
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>208</x>
-      <y>288</y>
-      <w>104</w>
-      <h>56</h>
+      <x>624</x>
+      <y>247</y>
+      <w>169</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;110.0;10.0</additional_attributes>
@@ -84,10 +84,10 @@ LecturePlanRepository
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>448</x>
-      <y>288</y>
-      <w>104</w>
-      <h>56</h>
+      <x>1014</x>
+      <y>247</y>
+      <w>169</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>110.0;50.0;60.0;50.0;60.0;10.0;10.0;10.0</additional_attributes>
@@ -95,10 +95,10 @@ LecturePlanRepository
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>328</y>
-      <w>40</w>
-      <h>104</h>
+      <x>1001</x>
+      <y>312</y>
+      <w>65</w>
+      <h>169</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 m1=0..n
@@ -109,15 +109,56 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>304</x>
-      <y>408</y>
-      <w>120</w>
-      <h>40</h>
+      <x>780</x>
+      <y>442</y>
+      <w>195</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
 m2=1
 </panel_attributes>
     <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>481</x>
+      <y>637</y>
+      <w>312</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>User
+-
++Name: string
++Email: string
++PermissionLevel: PermissionLevel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>949</x>
+      <y>637</y>
+      <w>221</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt; PermissionLevel
+-
+student
+teacher
+admin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>637</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
   </element>
 </diagram>
