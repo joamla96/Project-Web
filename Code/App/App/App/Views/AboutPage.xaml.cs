@@ -21,7 +21,7 @@ namespace App
         }
         async void OnSelectingAdminUser(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new StudentMainMenu());
+            await Navigation.PushAsync(new NavigationPage(new AdminAndTeacherBurgerSelectClass()));
         }
 
     }
