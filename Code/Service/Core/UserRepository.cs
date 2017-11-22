@@ -7,7 +7,7 @@ using Core.Interfaces;
 
 namespace Core
 {
-    class UserRepository: IUserRepository
+    public class UserRepository: IUserRepository
     {
         List<User> usersList = new List<User>();
 

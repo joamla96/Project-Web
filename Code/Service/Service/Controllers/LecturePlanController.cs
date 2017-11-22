@@ -31,6 +31,7 @@ namespace Service.Controllers
             return RepoLecturePlans.GetLecturePlanByID(id);
         }
 
+        //[HttpPost]
         //// POST: api/LecturePlan
         //public void Post([FromBody]LecturePlan lectureplan)
         //{
