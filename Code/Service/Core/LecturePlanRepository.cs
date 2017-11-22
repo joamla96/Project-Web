@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core
 {
-    public class LecturePlanRepository
+    public class LecturePlanRepository : ILecturePlanRepository
     {
         private static LecturePlanRepository instance;
         public static LecturePlanRepository Instance {

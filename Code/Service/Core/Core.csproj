@@ -40,10 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LecturePlan.cs" />
-    <Compile Include="LecturePlanEntries\LecturePlanClasswork.cs" />
-    <Compile Include="LecturePlanEntries\LecturePlanHomework.cs" />
-    <Compile Include="LecturePlanEntry.cs" />
+    <Compile Include="Interfaces\ILecturePlanRepository.cs" />
+    <Compile Include="Models\LecturePlan.cs" />
+    <Compile Include="Models\LecturePlanEntries\LecturePlanClasswork.cs" />
+    <Compile Include="Models\LecturePlanEntries\LecturePlanHomework.cs" />
+    <Compile Include="Models\LecturePlanEntry.cs" />
     <Compile Include="LecturePlanRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
