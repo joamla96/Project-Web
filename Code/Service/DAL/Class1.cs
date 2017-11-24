@@ -10,9 +10,7 @@ namespace DAL
     {
         public void item()
         {
-            LaerDanskDataSet stuff = new LaerDanskDataSet();
 
-            stuff.GetChanges();
         }
     }
 }
