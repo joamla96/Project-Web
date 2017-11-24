@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Core
 {
-    public class LecturePlanRepository
+    public class LecturePlanRepository : ILecturePlanRepository
     {
-        private static LecturePlanRepository instance;
-        public static LecturePlanRepository Instance {
+        private static ILecturePlanRepository instance;
+        public static ILecturePlanRepository Instance {
             get {
                 if (instance == null) { instance = new LecturePlanRepository(); }
                 return instance;
@@ -55,6 +55,10 @@ namespace Core
                     result = lectureplan;
                 }
             }
+            if (result == null)
+            {
+                throw new NullReferenceException();
+            }
             return result;
         }
 
@@ -77,7 +81,7 @@ namespace Core
 
             if(result==null)
             {
-                throw new IndexOutOfRangeException();
+                throw new NullReferenceException();
             }
 
             return result;
