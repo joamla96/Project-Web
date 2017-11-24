@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>544</x>
-      <y>16</y>
+      <x>592</x>
+      <y>48</y>
       <w>96</w>
       <h>192</h>
     </coordinates>
@@ -16,8 +16,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>960</x>
-      <y>112</y>
+      <x>1008</x>
+      <y>144</y>
       <w>208</w>
       <h>64</h>
     </coordinates>
@@ -28,30 +28,30 @@ valign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>160</y>
-      <w>48</w>
-      <h>576</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;340.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1040</x>
-      <y>160</y>
-      <w>48</w>
-      <h>576</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;340.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>576</x>
+      <x>624</x>
       <y>192</y>
+      <w>48</w>
+      <h>816</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1088</x>
+      <y>192</y>
+      <w>48</w>
+      <h>816</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>224</y>
       <w>512</w>
       <h>64</h>
     </coordinates>
@@ -62,8 +62,8 @@ Open exercises manager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>272</y>
+      <x>624</x>
+      <y>288</y>
       <w>512</w>
       <h>64</h>
     </coordinates>
@@ -74,7 +74,7 @@ list of exercises</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>624</x>
       <y>352</y>
       <w>512</w>
       <h>64</h>
@@ -86,8 +86,8 @@ Select exercise</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>432</y>
+      <x>624</x>
+      <y>416</y>
       <w>512</w>
       <h>64</h>
     </coordinates>
@@ -98,8 +98,8 @@ exercise</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>512</y>
+      <x>624</x>
+      <y>480</y>
       <w>512</w>
       <h>64</h>
     </coordinates>
@@ -110,13 +110,86 @@ Access submited responses</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>592</y>
+      <x>624</x>
+      <y>544</y>
       <w>512</w>
       <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 list of submitted responses</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>624</y>
+      <w>608</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>*/extension for US3.7/*</panel_attributes>
+    <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1744</x>
+      <y>0</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>System
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>704</y>
+      <w>512</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Select specific response</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>768</y>
+      <w>512</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+response
+</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>832</y>
+      <w>512</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Send feedback</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>896</y>
+      <w>512</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+confirmation/error message
+</panel_attributes>
     <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
   </element>
 </diagram>
