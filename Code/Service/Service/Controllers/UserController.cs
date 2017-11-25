@@ -25,9 +25,9 @@ namespace Service.Controllers
         }
 
         // GET: api/User
-        public string Get()
+        public IEnumerable<User> Get()
         {
-            return RepoUsers.GetHashCode ;
+            return RepoUsers.GetAllUsers();
         }
 
         // GET: api/User/5

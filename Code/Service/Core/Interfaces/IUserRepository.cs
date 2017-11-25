@@ -13,5 +13,7 @@ namespace Core.Interfaces
         User GetUser(User user);
         User GetUserByUsername(string username);
 
+        List<User> GetAllUsers();
+
     }
 }

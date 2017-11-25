@@ -65,5 +65,10 @@ namespace Core
             }
             return result;
         }
+
+        public List<User> GetAllUsers()
+        {
+            return this.usersList;
+        }
     }
 }
