@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Core
 {
     public class LecturePlanRepository : ILecturePlanRepository
     {
+        private int NextIDCounter = 0;
         private static ILecturePlanRepository instance;
         public static ILecturePlanRepository Instance {
             get {
@@ -34,9 +36,11 @@ namespace Core
 
         private List<LecturePlan> lecturePlans = new List<LecturePlan>();
 
-        public void AddLecturePlan(LecturePlan lectureplan)
+        public int AddLecturePlan(LecturePlan lectureplan)
         {
+            lectureplan.ID = this.NextID();
             lecturePlans.Add(lectureplan);
+            return lectureplan.ID;
         }
 
         public void RemoveLecturePlan(LecturePlan lectureplan)
@@ -94,6 +98,16 @@ namespace Core
 
             RemoveLecturePlan(lecturePlan);
             
+        }
+
+        private int NextID()
+        {
+            return ++NextIDCounter;
+        }
+
+        public int NextIDTest()
+        {
+            return this.NextID();
         }
     }
 }

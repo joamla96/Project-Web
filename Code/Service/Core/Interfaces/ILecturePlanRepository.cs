@@ -8,7 +8,7 @@ namespace Core
 {
     public interface ILecturePlanRepository
     {
-        void AddLecturePlan(LecturePlan plan);
+        int AddLecturePlan(LecturePlan plan);
         void RemoveLecturePlan(LecturePlan plan);
         void RemoveLecturePlanByID(int id);
         LecturePlan GetLecturePlan(LecturePlan plan);
