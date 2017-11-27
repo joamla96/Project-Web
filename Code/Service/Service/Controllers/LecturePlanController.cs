@@ -3,6 +3,7 @@ using System.Linq;
 using System.Web.Http;
 using Core;
 using System.Web.Script.Serialization;
+using System;
 
 namespace Service.Controllers
 {
@@ -20,15 +21,20 @@ namespace Service.Controllers
             this.RepoLecturePlans = LecturePlanRepository.Instance;
         }
 
-        public string Get()
+        public IEnumerable<LecturePlan> Get()
         {
-            return "Please specify lectureplan";
+            return RepoLecturePlans.GetAllLecturePlans();
         }
 
         // GET: api/LecturePlan/5
         public LecturePlan Get(int id)
         {
             return RepoLecturePlans.GetLecturePlanByID(id);
+        }
+
+        public void Post(LecturePlan item)
+        {
+            throw new NotImplementedException();
         }
 
         //[HttpPost]
@@ -38,22 +44,5 @@ namespace Service.Controllers
         //    LecturePlanRepository.Instance.AddLecturePlan(lectureplan);
         //}
 
-
-
-        public IEnumerable<string> GetAll()
-        {
-            List<string> result = new List<string>();
-
-            List<LecturePlan> plans = RepoLecturePlans.GetAllLecturePlans().ToList<LecturePlan>();
-
-            foreach(LecturePlan item in plans)
-            {
-                string json = new JavaScriptSerializer().Serialize(item);
-                result.Add(json);
-            }
-            return result;
-
-
-        }
     }
 }
