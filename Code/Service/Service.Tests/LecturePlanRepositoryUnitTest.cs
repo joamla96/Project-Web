@@ -25,7 +25,7 @@ namespace Service.Tests
         }
 
         [TestMethod]
-        public void RepositoryInstanceAreTheSame()
+        public void LecturePlanRepositoryInstanceAreTheSame()
         {
             LecturePlan DummyOne = new LecturePlan();
             ILecturePlanRepository Instance1 = LecturePlanRepository.Instance;
