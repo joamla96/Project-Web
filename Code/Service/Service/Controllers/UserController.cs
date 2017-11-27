@@ -31,24 +31,24 @@ namespace Service.Controllers
         }
 
         // GET: api/User/5
-        public string Get(int id)
+        public string Get(string Username)
         {
             return "value";
         }
 
         // POST: api/User
-        public void Post([FromBody]string value)
+        public void Post([FromBody]User dummyFour)
         {
+            throw new NotImplementedException();
         }
-
         // PUT: api/User/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/User/5
-        public void Delete(int id)
+        public void Delete([FromBody]User dummyOne)
         {
+            throw new NotImplementedException();
         }
     }
 }

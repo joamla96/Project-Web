@@ -3,23 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core;
 using Core.Interfaces;
 
-namespace Core
+namespace Service.Tests.TestRepositoreis
 {
-    public class UserRepository: IUserRepository
+    class TestUserRepository : IUserRepository
     {
         List<User> usersList = new List<User>();
-
-        private static IUserRepository instance;
-        public static IUserRepository Instance {
-            get {
-                if (instance == null) { instance = new UserRepository(); }
-                return instance;
-            }
-        }
-
-        private UserRepository() { }
 
         public void AddUser(User user)
         {
@@ -34,9 +25,9 @@ namespace Core
         public User GetUser(User user)
         {
             User result = null;
-            foreach(User item in usersList)
+            foreach (User item in usersList)
             {
-                if(item.Equals(user))
+                if (item.Equals(user))
                 {
                     result = item;
 
@@ -53,15 +44,15 @@ namespace Core
 
         public User GetUserByUsername(string username)
         {
-            User result = null; 
-            foreach(User item in usersList)
+            User result = null;
+            foreach (User item in usersList)
             {
-                if(username.Equals(item.Username))
+                if (username.Equals(item.Username))
                 {
                     result = item;
                 }
             }
-            if(result==null)
+            if (result == null)
             {
                 throw new NullReferenceException();
             }
