@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="LecturePlanRepositoryUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControllerUnitTest.cs" />
     <Compile Include="UserRepositoryUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
