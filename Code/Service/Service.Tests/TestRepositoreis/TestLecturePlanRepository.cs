@@ -1,29 +1,18 @@
-﻿using System;
+﻿using Core;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Core
+namespace Service.Tests.TestRepositoreis
 {
-    public class LecturePlanRepository : ILecturePlanRepository
+    class TestLecturePlanRepository : ILecturePlanRepository
     {
-        private int NextIDCounter = 0;
-        private static ILecturePlanRepository instance;
-        public static ILecturePlanRepository Instance {
-            get {
-                if (instance == null) { instance = new LecturePlanRepository(); }
-                return instance;
-            }
-        }
-
-
-        private LecturePlanRepository() { }
-
         private List<LecturePlan> lecturePlans = new List<LecturePlan>();
 
         public int AddLecturePlan(LecturePlan lectureplan)
         {
-            lectureplan.ID = this.NextID();
             lecturePlans.Add(lectureplan);
             return lectureplan.ID;
         }
@@ -37,7 +26,7 @@ namespace Core
         {
             LecturePlan result = null;
 
-            foreach(LecturePlan item in lecturePlans)
+            foreach (LecturePlan item in lecturePlans)
             {
                 if (lectureplan.Equals(item))
                 {
@@ -60,15 +49,15 @@ namespace Core
         {
             LecturePlan result = null;
 
-            foreach(LecturePlan item in lecturePlans)
+            foreach (LecturePlan item in lecturePlans)
             {
-                if(id.Equals(item.ID))
-                    {
+                if (id.Equals(item.ID))
+                {
                     result = item;
                 }
             }
 
-            if(result==null)
+            if (result == null)
             {
                 throw new NullReferenceException();
             }
@@ -82,17 +71,7 @@ namespace Core
             LecturePlan lecturePlan = GetLecturePlanByID(id);
 
             RemoveLecturePlan(lecturePlan);
-            
-        }
 
-        private int NextID()
-        {
-            return ++NextIDCounter;
-        }
-
-        public int NextIDTest()
-        {
-            return this.NextID();
         }
     }
 }
